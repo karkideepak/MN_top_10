@@ -1,1 +1,16 @@
+# Example tool adoption data
+tools_data = {
+    'Company': df['Company'],
+    'Tools_Adopted': [5,6,4,4,6,7,5,4,3,6]  # Count of key security tools
+}
 
+df_tools = pd.DataFrame(tools_data)
+
+plt.figure(figsize=(12,6))
+plt.bar(df_tools['Company'], df_tools['Tools_Adopted'], color='orange')
+plt.xticks(rotation=45, ha='right')
+plt.ylabel('Number of Key Security Tools')
+plt.title('Security Tool Adoption by Company')
+plt.tight_layout()
+plt.savefig('charts/tools_adopted.png')
+plt.show()
