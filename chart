@@ -1,0 +1,8 @@
+| Chart                           | X-axis    | Y-axis                       | Notes                                                        |
+| ------------------------------- | --------- | ---------------------------- | ------------------------------------------------------------ |
+| **Salary vs Work-Life Balance** | Companies | Salary & WLB                 | Dual bar chart or scatter plot (Salary = $, WLB = 1–5 scale) |
+| **Tool Adoption Comparison**    | Companies | # of Tools / Tool Categories | Stack: SIEM, EDR, Cloud, Automation                          |
+| **Remote Flexibility**          | Companies | % of IT roles remote         | Bar chart                                                    |
+| **Employee Rating**             | Companies | Glassdoor/Indeed rating      | 1–5 scale                                                    |
+| **Career Growth Opportunities** | Companies | Rating 1–5                   | Subjective or sourced from reviews                           |
+| **Cert Support**                | Companies | Yes/No (color-coded)         | Use stacked or color blocks                                  |
