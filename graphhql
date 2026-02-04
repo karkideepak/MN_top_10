@@ -1,0 +1,11 @@
+TopITCompanies/
+├── README.md           # Front page with top 10 companies and table
+├── data/
+│   ├── salary.json     # Salary data per company
+│   ├── tools.json      # Security/IT tool stack per company
+│   └── ratings.json    # WLB, satisfaction, remote flexibility
+├── scripts/
+│   ├── fetch_data.py   # Optional: fetch Glassdoor/Indeed data automatically
+│   └── generate_table.py # Generate Markdown table dynamically
+├── metrics.md          # Detailed explanations of each metric
+└── LICENSE
